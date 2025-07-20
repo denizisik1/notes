@@ -1,0 +1,50 @@
+dynamic typing – bugs sneak in, hard to debug.
+type coercion – "5" + 1 = "51", "5" - 1 = 4. wut?
+equality confusion – == vs ===, unexpected results.
+global scope pollution – easy to accidentally leak variables.
+inconsistent browser behavior – write once, debug everywhere.
+silent failures – many errors don’t throw exceptions.
+callback hell – before promises/async, code was deeply nested.
+tooling bloat – need dozens of tools to build a simple app.
+framework fatigue – react, angular, vue... constantly changing.
+weird scoping rules – var behaves differently than let/const.
+hoisting – variables/functions behave like they're declared earlier.
+mutable everything – objects and arrays are always references.
+lack of standard modules (historically) – es modules came late.
+inconsistent standard library – string, array, and math apis feel disconnected.
+no integers – everything is a float (number type).
+nan !== nan – seriously.
+typeof null === "object" – legacy bug, never fixed.
+object keys always strings – even if you use numbers or symbols.
+this keyword confusion – context changes easily.
+prototype inheritance – unintuitive and error-prone.
+poor encapsulation – only recently got private fields.
+date api is awful – inconsistent and messy.
+too permissive parser – accepts bad code without warnings.
+security holes – especially in browser context (xss etc).
+event loop complexity – async behavior is hard to reason about.
+garbage collection unpredictability – affects performance.
+monoculture – dominates front-end dev, not always the best fit.
+bloated runtime – slow startup and high memory use.
+package ecosystem chaos – millions of low-quality npm packages.
+left-pad incident – one tiny deleted package broke half the internet.
+eslint obsession – too many linter rules to avoid footguns.
+poor binary data handling – arraybuffer and typedarray are clunky.
+bad regex ergonomics – syntax-heavy, little sugar.
+legacy baggage – old quirks persist for compatibility.
+too many ways to do things – inconsistent conventions.
+no macros or metaprogramming – limited expressiveness.
+painful debugging – especially with minified or transpiled code.
+weak performance – compared to native languages.
+lack of concurrency – no threads (until web workers).
+functional programming half-baked – map/filter/reduce, but no real immutability.
+promises chain confusion – .then().then().catch() can go wrong fast.
+transpiler mess – babel etc. required just to use new features.
+version fragmentation – older engines lag behind specs.
+inconsistent error messages – vague or misleading.
+code bloat – to get safety/perf, you end up writing/compiling a lot.
+dom tightly coupled – makes unit testing harder.
+everything is an object... or is it? – primitives behave inconsistently.
+monkey patching – too easy to modify built-ins, break things.
+try-catch is slow – discourages proper error handling.
+web standards race – ever-changing, hard to keep up.
