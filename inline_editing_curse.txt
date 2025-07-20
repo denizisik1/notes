@@ -1,0 +1,13 @@
+Inline Editing Options
+    even db-clients cannot edit outputs with joins
+    https://codewithmark.com/easily-edit-html-table-rows-or-cells-with-jquery
+    https://github.com/divanov11/table-edit-frontend-complete/blob/master/table.html
+    https://github.com/divanov11/table-edit-backend/tree/master/edit_table/app
+
+Not Inline Editing
+    a db-client and this: https://www.apexsql.com/sql-tools-log/
+    also metabase for reports etc
+
+    https://budibase.com/
+    https://retool.com/
+    https://www.dolthub.com/

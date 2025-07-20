@@ -1,0 +1,16 @@
+Tested
+    cd $HOME/Projects/
+    mkdir django_cms
+    git clone git@github.com:django-cms/django-cms-quickstart.git .
+    docker compose build web
+    docker compose up -d database_default
+    sleep 10
+    docker compose run web python manage.py migrate
+    docker compose run web python manage.py createsuperuser
+    docker compose up -d
+
+Non-Tested
+    https://github.com/cookiecutter/cookiecutter-django
+    https://github.com/pennersr/django-allauth
+    https://github.com/django-oscar/django-oscar
+    https://github.com/stephenmcd/mezzanine
